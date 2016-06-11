@@ -43,18 +43,20 @@
 }
 
 .menu {	
-	margin-top: 71px;	
-		
+	margin-top: 71px;		
 }
 
-.menu__item {
+.item_wrap {
 	display: inline-block;
+	padding-bottom: 3px;
+	margin-right: 47px;
+}
+
+.menu__item {	
 	color: #fff;
 	font-size: 25px;
 	text-decoration: none;
-	text-transform: uppercase;
-	padding-bottom: 3px;
-	margin-right: 47px;
+	text-transform: uppercase;	
 	text-shadow: 2px 2px 5px rgba(150, 150, 150, 0.86);
 }
 
@@ -113,15 +115,15 @@
 .phone {
 	margin-top: -10px;
 	margin-right: -50px;
+	position: relative;
+	padding-right: 50px;
 }
 
 
 .slider__nav {
 	position: absolute;
-	width: 100%;
-	text-align: center;
-	top: 770px;
-	left: 275px;
+	top: 500px;
+	right: 130px;
 }
 
 .about {
@@ -176,6 +178,34 @@
 	text-decoration: none;
 	float: right;
 	margin-top: 25px;
+}
+
+.about_a:hover {	
+	text-shadow: 
+		-0   -2px 3px rgba( 245, 235, 235, 0.15 ),
+		 0   -2px 3px rgba( 245, 235, 235, 0.15 ),
+		-0    2px 3px rgba( 245, 235, 235, 0.15 ),
+		 0    2px 3px rgba( 245, 235, 235, 0.15 ),
+		-2px -0   3px rgba( 245, 235, 235, 0.15 ),
+		 2px -0   3px rgba( 245, 235, 235, 0.15 ),
+		-2px  0   3px rgba( 245, 235, 235, 0.15 ),
+		 2px  0   3px rgba( 245, 235, 235, 0.15 ),
+		-1px -2px 3px rgba( 245, 235, 235, 0.15 ),
+		 1px -2px 3px rgba( 245, 235, 235, 0.15 ),
+		-1px  2px 3px rgba( 245, 235, 235, 0.15 ),
+		 1px  2px 3px rgba( 245, 235, 235, 0.15 ),
+		-2px -1px 3px rgba( 245, 235, 235, 0.15 ),
+		 2px -1px 3px rgba( 245, 235, 235, 0.15 ),
+		-2px  1px 3px rgba( 245, 235, 235, 0.15 ),
+		 2px  1px 3px rgba( 245, 235, 235, 0.15 ),
+		-2px -2px 3px rgba( 245, 235, 235, 0.15 ),
+		 2px -2px 3px rgba( 245, 235, 235, 0.15 ),
+		-2px  2px 3px rgba( 245, 235, 235, 0.15 ),
+		 2px  2px 3px rgba( 245, 235, 235, 0.15 ),
+		-2px -2px 3px rgba( 245, 235, 235, 0.15 ),
+		 2px -2px 3px rgba( 245, 235, 235, 0.15 ),
+		-2px  2px 3px rgba( 245, 235, 235, 0.15 ),
+		 2px  2px 3px rgba( 245, 235, 235, 0.15 );
 }
 
 .about_icon_1, .about_icon_2, .about_icon_3 {
@@ -274,7 +304,7 @@
 }
 
 .updates_photo_1, .updates_photo_2, .updates_photo_3 {
-	width: 49px;
+	min-width: 49px;
 	height: 49px;
 	margin-right: 15px;
 }
@@ -320,6 +350,10 @@
 	color: #000;
 }
 
+.only_320 {
+	display: none;
+}
+
 /*LOGOS*/
 
 .companies {
@@ -328,6 +362,13 @@
 	text-align: center;
 	border-top: 1px solid #e6e6e6;
 	border-bottom: 1px solid #e6e6e6;
+	padding: 30px 5%;
+}
+
+.companies_logos {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 20px;
 }
 
 .news {
@@ -398,6 +439,7 @@ footer {
 }
 
 .menu_footer_item {
+	
 	margin-right: 40px;
 	color: #fff;
 	font-family: 'League_gothic';
@@ -420,3 +462,14 @@ footer {
 .disign span {
 	font-weight: bold;
 }
+
+.menu_footer {
+	min-width: 560px;
+	display: inline-block;
+}
+
+
+
+
+
+
